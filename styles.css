@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@100&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Source+Serif+Pro:ital,wght@1,900&display=swap');
+
+/* HEADING */
+.home-image {
+    width:50%;
+    height:70%;
+    margin-top: 10%;
+   
+
+    /* padding-top: 15%;
+    border: top 50px;  ; */
+    
+    border-radius: 500px;
+   border-color: deeppink;
+   border: 5px solid rgba(168, 13, 135, 0.322);
+}
+ .home-row h1{
+color: rgb(90, 7, 14);
+ font-size:60px ;
+ font-weight: bold;
+margin-left: 30%;
+margin-top: 10%;
+
+
+ } 
+ .home-row h2{
+  
+margin-left:5%;
+font-size: 40px ;
+color: rgb(90, 7, 14);
+text-align: center;
+ 
+ 
+
+
+
+ }
+.Description{
+    text-align: center;
+}
+
+.Intro{
+
+
+    font-family: 'Dancing Script',cursive;
+    font-size:25px;
+   font weight:900;
+   color:rgb(90, 7, 14);
+      background-image: url(' https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyMzQ2MzUzfHxlbnwwfHx8fA%3D%3D&w=1000&q=80 '); 
+
+     
+    /* background: -webkit-linear-gradient(-45deg,rgba(0,16,171,0.96) ,rgba(57,255,243,1)  ); */
+
+}
+.perso{
+
+    font-family: 'Dancing Script',cursive;
+    font-size:25px;
+   font weight:900;
+   
+   color:rgb(90, 7, 14);
+   background-image:url(' https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg   ');
+   
+
+}
+
+ .perso h2{
+    font-size: 40px ;
+    margin-left:5%;
+    text-decoration: underline;
+ }
+.cont{
+   margin-left: 2%;
+}
+
+.edu{
+    font-family: 'Dancing Script',cursive;
+    font-size:25px;
+   font weight:900;
+  
+   height:20rem;
+   color:rgb(90, 7, 14);
+     
+   background:-webkit-linear-gradient(-45deg, #FFCDDD ,#7C99AC   );
+
+
+}
+
+
+.edu h2{
+    font-size: 40px ;
+    margin-left:5%;
+    text-decoration: underline;
+}
+
+
+.schoolimg{
+
+ width:10%;
+    height:30%;
+    
+    
+}
+
+ 
+  .haisc{
+      color: rgb(90, 7, 14);
+      width=20px;
+      height=40px;
+    border-radius: 50px;
+    border-left: 0%;
+   margin-left:2%;
+   text-align: center;
+   border: 5px solid rgba(168, 13, 135, 0.322);
+    background: -webkit-linear-gradient(-45deg,rgba(209, 204, 238, 0.96) ,rgba(57,255,243,1)  );
+  } 
+
+.mec{
+
+
+    color: rgb(90, 7, 14);
+    width=20px;
+    height=40px;
+  border-radius: 50px;
+   
+ 
+ text-align: center;
+ border: 5px solid rgba(168, 13, 135, 0.322);
+  background: -webkit-linear-gradient(-45deg,rgba(209, 204, 238, 0.96) ,rgba(57,255,243,1)  );
+
+
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: rgb(143, 168, 202);
+    text-align: center;
+    color:#fff;
+    padding: 2% 0%;
+}
+
+.media-item{
+    color:#fff;
+    
+}
+
+.media-item:hover {
+    color:bisque;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  
+body{
+    font-family: 'Dancing Script',cursive;
+    font-size:25px;
+   font weight:900;
+   color:rgb(90, 7, 14);
+      background-image: url(' https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyMzQ2MzUzfHxlbnwwfHx8fA%3D%3D&w=1000&q=80 '); 
+
+     
+    /* background: -webkit-linear-gradient(-45deg,rgba(0,16,171,0.96) ,rgba(57,255,243,1)  ); */
+   }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*.Enclose {
+    height: 700px;
+    width: 500px;
+    
+ 
+   text-align: center;
+    
+    margin-left: 30%;
+    margin-top: 10%;
+    box-shadow: 0px 0px 20px #b67cac;
+    border-radius: 70px;
+    background-color:#FFE3E3;
+     
+
+    
+}
+.Enclose__name{
+    width:550px;
+    height=50px;
+    font-size:80px;
+    background: -webkit-linear-gradient( bottom left,#da1244,rgb(100, 57, 255) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+
+  
+
+}
+
+.Skills__h1{
+ text-align:end ;
+ color:blue;
+
+}
+.Footer{
+    background-color:white;
+    color: blue;
+    padding:0px;
+    height: 50%;
+    font-family:'Dancing Script',cursive ;
+    font weight:900;
+     
+}
+.link{
+    color:rgb(90, 7, 14);
+}*/
